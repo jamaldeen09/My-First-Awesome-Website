@@ -102,7 +102,7 @@ header h6{
 }
 
 .second-container h1::first-letter{
-    background-color:rgb(136, 222, 6);;
+    background-color:rgb(136, 222, 6);
     color:white;
     border-radius:6px;
 }
@@ -139,7 +139,7 @@ header h6{
 .section-2{
     border:blue solid 5px;
     overflow:hidden;
-    background-image:url(closeup-african-american-doctor-hand-typing-medical-prescription-after-analyzing-patient-sickness-expertise-therapist-man-working-healthcare-treatment-hospital-office-medicine-service.jpg);
+    background-image:url(african-american-nurse-using-digital-tablet-treatment-black-medical-assistant-looking-screen-device-while-wearing-uniform-stethoscope-doctors-office-healthcare.jpg);
     background-size:cover;
     background-position:center;
     height:700px;
@@ -159,6 +159,12 @@ header h6{
     position:absolute;
     color:white;
     font-size:3.3em
+}
+
+.blue-button{
+    position:absolute;
+    background-color:rgb(3, 3, 186);
+    color:white;
 }
 
 
