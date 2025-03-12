@@ -60,6 +60,63 @@ ul #appointment {
   padding: 20px;
   border-radius: 6px;
 }
-ul #appointment a {
+ul a {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+ul a:hover {
+  color: rgb(6, 221, 6);
+}
+
+.section-1 {
+  border: 5px solid yellow;
+  min-height: 800px;
+  background-image: url(african-american-nurse-using-digital-tablet-treatment-black-medical-assistant-looking-screen-device-while-wearing-uniform-stethoscope-doctors-office-healthcare.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section-1 h5, .section-1 h1, .section-1 p {
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: relative;
+}
+.section-1 h1 {
+  font-size: 2.8em;
+}
+.section-1 h5 {
+  top: 28px;
+}
+.section-1 p {
+  bottom: 17px;
+  background-color: rgb(43, 43, 157);
+  padding: 18px;
+  border-radius: 4px;
+}
+
+.section-2 {
+  background-image: url(about-bg.jpg);
+  background-size: cover;
+  border: 5px solid green;
+  min-height: 92vh;
+  display: flex;
+}
+.section-2 .inner-div {
+  border: 5px solid red;
+  position: relative;
+  min-width: 100px;
+  top: 182px;
+  left: 200px;
+}
+.section-2 h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 1.9em;
+  margin: 0;
+}
+.section-2 #center {
+  position: relative;
+  top: 8px;
 }/*# sourceMappingURL=style.css.map */
