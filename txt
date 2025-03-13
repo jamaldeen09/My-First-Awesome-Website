@@ -115,3 +115,13 @@ urna mattis. Ut placerat, diam a tempus vehicula.
                         </div>
                     </div>
                 </div>
+
+
+                .appointment-img{
+                    overflow:hidden;
+            
+                    img{
+                        position:relative;
+                        left:85px;
+                    }
+                }
