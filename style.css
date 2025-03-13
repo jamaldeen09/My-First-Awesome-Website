@@ -119,4 +119,14 @@ ul a:hover {
 .section-2 #center {
   position: relative;
   top: 8px;
+}
+.section-2 pre {
+  font-weight: bold;
+  color: grey;
+  position: relative;
+  top: 20px;
+}
+.section-2 #pre2 {
+  bottom: 20px;
+  position: relative;
 }/*# sourceMappingURL=style.css.map */
