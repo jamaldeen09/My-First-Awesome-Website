@@ -5,8 +5,8 @@ body{
 }
 .header-container{
     display:flex;
-    padding-left:50px;
-    padding-right:50px;
+    padding-left:70px;
+    padding-right:70px;
     border-bottom:grey 0.5px solid;
 
     h5{
@@ -38,8 +38,8 @@ body{
 
 .navbar{
     display:flex;
-    padding-left:50px;
-    padding-right:45px;
+    padding-left:70px;
+    padding-right:65px;
 
     h1{
         font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -91,9 +91,8 @@ ul{
 }
 
 .section-1{
-    min-height:800px;
+    min-height:850px;
     background-image:url(african-american-nurse-using-digital-tablet-treatment-black-medical-assistant-looking-screen-device-while-wearing-uniform-stethoscope-doctors-office-healthcare.jpg);
-    background-repeat:no-repeat;
     background-position: center;
     background-size:cover;
     display:flex;
@@ -120,6 +119,11 @@ ul{
         background-color:rgb(43, 43, 157);
         padding:18px;
         border-radius:4px;
+
+        a{
+            text-decoration:none;
+            color:white;
+        }
     }
 }
 
@@ -199,11 +203,9 @@ ul{
 }
 
 .section-3{
-    border:5px solid red;
-    height:150vh;
+    height:133vh;
     padding-left:130px;
     padding-top:40px;
-
 
     h1{
         font-weight:bold;
@@ -211,33 +213,202 @@ ul{
         font-size:1.9em;
     }
 
-    .image{
-        border:5px solid red;
-        height:100px;
-    }
-
-    .third-container{
-        border:5px solid orange;
+    .inner-container{
+        position:relative;
+        top:10px;
+        height:113vh;
+        width:1413px;
         display:flex;
-        min-height:100vh;
-        gap:19px;
-    }
+        gap:20px;
 
-    .section-3-text{
-        border:5px solid green;
-        height:200px;
 
-        h4{
-            color:grey;
-            position:relative;
-            bottom:10px;
+
+        .image1{
+            height:1000px;
+            background-color:$border-color;
+            border-bottom-right-radius: 15px;
+            border-bottom-left-radius: 15px;
+
+            .info{
+                padding-left:20px;
+
+
+                .closing-content1{
+                   border-top:0.4px solid grey;
+    
+                   p{
+                    color:grey;
+                   }
+                }
+            }
+
+            h4{
+                color:grey;
+                position:relative;
+                bottom:10px;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
         }
 
-        .closing-content-for-section-3{
-            border:5px solid red;
+        .image2{
+            height:1000px;
+            background-color:$border-color;
+            border-bottom-right-radius: 15px;
+            border-bottom-left-radius: 15px;
 
+            h1{
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            
+
+            h4{
+                color:grey;
+                position:relative;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                bottom:10px;
+            }
+
+            .info{
+                padding-left:20px;
+
+
+                .closing-content2{
+                   border-top:0.4px solid grey;
+    
+                   p{
+                    color:grey;
+                   }
+                }
+            }
+        }
+
+        .image3{
+            height:1000px;
+            background-color:$border-color;
+            border-bottom-right-radius: 15px;
+            border-bottom-left-radius: 15px;
+
+            h1{
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            
+
+            h4{
+                color:grey;
+                position:relative;
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                bottom:10px;
+            }
+
+            .info{
+                padding-left:20px;
+                .closing-content3{
+                   border-top:0.4px solid grey;
+    
+                   p{
+                    color:grey;
+                   }
+                }
+            }
         }
     }
 }
 
+.section-4{
+    border:5px solid green;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    height:1000px;
 
+    h1{
+        font-size:2em;
+        font-weight:800;
+    }
+
+    .latest-news-images{
+        border:5px solid blue;
+        height:720px;
+        width:1413px;
+        display:flex;
+        gap:20px;
+
+        .news-image{
+            border:5px solid yellow;
+            width:438px;
+            height:700px;
+
+            img{
+                border-top-right-radius:15px;
+                border-top-left-radius:15px;
+
+            }
+
+            .news-info{
+                font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                padding-left:40px;
+
+                h5{
+                    color:grey;
+                }
+
+                h1{
+                    font-size:1.9em;
+                    position:relative;
+                    bottom:12px;
+                }
+
+                #technology{
+                    position:relative;
+                    bottom:33px;
+                }
+
+                #moving-text{
+                    position:relative;
+                    bottom:50px;
+                }
+
+                #moving{
+                    position:relative;
+                    bottom:39px;
+                }
+
+                .author-img{
+                    border-top:grey 0.4px solid;
+                    padding-top:20px;
+                    display:flex;
+                    gap:10px;
+                    position:relative;
+                    bottom:30px;
+
+                    img{
+                        border-radius:50%;
+                        height:70px;
+                        width:80px;
+                    }
+
+                    .description{
+                        position:relative;
+                        bottom:4px;
+
+
+                        h4{
+                            font-weight:800;
+                        }
+
+                        #ceo{
+                            position:relative;
+                            bottom:13px;
+                            color:grey;
+                        }
+    
+                    }
+                }
+
+            }
+        }
+
+    }
+}

@@ -5,8 +5,8 @@ body {
 
 .header-container {
   display: flex;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 70px;
+  padding-right: 70px;
   border-bottom: grey 0.5px solid;
 }
 .header-container h5 {
@@ -32,8 +32,8 @@ body {
 
 .navbar {
   display: flex;
-  padding-left: 50px;
-  padding-right: 45px;
+  padding-left: 70px;
+  padding-right: 65px;
 }
 .navbar h1 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -76,9 +76,8 @@ ul a:hover {
 }
 
 .section-1 {
-  min-height: 800px;
+  min-height: 850px;
   background-image: url(african-american-nurse-using-digital-tablet-treatment-black-medical-assistant-looking-screen-device-while-wearing-uniform-stethoscope-doctors-office-healthcare.jpg);
-  background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -102,6 +101,10 @@ ul a:hover {
   background-color: rgb(43, 43, 157);
   padding: 18px;
   border-radius: 4px;
+}
+.section-1 p a {
+  text-decoration: none;
+  color: white;
 }
 
 .section-2 {
@@ -162,8 +165,7 @@ ul a:hover {
 }
 
 .section-3 {
-  border: 5px solid red;
-  height: 150vh;
+  height: 133vh;
   padding-left: 130px;
   padding-top: 40px;
 }
@@ -172,25 +174,159 @@ ul a:hover {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 1.9em;
 }
-.section-3 .image {
-  border: 5px solid red;
-  height: 100px;
-}
-.section-3 .third-container {
-  border: 5px solid orange;
+.section-3 .inner-container {
+  position: relative;
+  top: 10px;
+  height: 113vh;
+  width: 1413px;
   display: flex;
-  min-height: 100vh;
-  gap: 19px;
+  gap: 20px;
 }
-.section-3 .section-3-text {
-  border: 5px solid green;
-  height: 200px;
+.section-3 .inner-container .image1 {
+  height: 1000px;
+  background-color: rgba(217, 217, 217, 0.332);
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
-.section-3 .section-3-text h4 {
+.section-3 .inner-container .image1 .info {
+  padding-left: 20px;
+}
+.section-3 .inner-container .image1 .info .closing-content1 {
+  border-top: 0.4px solid grey;
+}
+.section-3 .inner-container .image1 .info .closing-content1 p {
+  color: grey;
+}
+.section-3 .inner-container .image1 h4 {
   color: grey;
   position: relative;
   bottom: 10px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.section-3 .section-3-text .closing-content-for-section-3 {
-  border: 5px solid red;
+.section-3 .inner-container .image2 {
+  height: 1000px;
+  background-color: rgba(217, 217, 217, 0.332);
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.section-3 .inner-container .image2 h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.section-3 .inner-container .image2 h4 {
+  color: grey;
+  position: relative;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  bottom: 10px;
+}
+.section-3 .inner-container .image2 .info {
+  padding-left: 20px;
+}
+.section-3 .inner-container .image2 .info .closing-content2 {
+  border-top: 0.4px solid grey;
+}
+.section-3 .inner-container .image2 .info .closing-content2 p {
+  color: grey;
+}
+.section-3 .inner-container .image3 {
+  height: 1000px;
+  background-color: rgba(217, 217, 217, 0.332);
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+.section-3 .inner-container .image3 h1 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.section-3 .inner-container .image3 h4 {
+  color: grey;
+  position: relative;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  bottom: 10px;
+}
+.section-3 .inner-container .image3 .info {
+  padding-left: 20px;
+}
+.section-3 .inner-container .image3 .info .closing-content3 {
+  border-top: 0.4px solid grey;
+}
+.section-3 .inner-container .image3 .info .closing-content3 p {
+  color: grey;
+}
+
+.section-4 {
+  border: 5px solid green;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 1000px;
+}
+.section-4 h1 {
+  font-size: 2em;
+  font-weight: 800;
+}
+.section-4 .latest-news-images {
+  border: 5px solid blue;
+  height: 720px;
+  width: 1413px;
+  display: flex;
+  gap: 20px;
+}
+.section-4 .latest-news-images .news-image {
+  border: 5px solid yellow;
+  width: 438px;
+  height: 700px;
+}
+.section-4 .latest-news-images .news-image img {
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+}
+.section-4 .latest-news-images .news-image .news-info {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-left: 40px;
+}
+.section-4 .latest-news-images .news-image .news-info h5 {
+  color: grey;
+}
+.section-4 .latest-news-images .news-image .news-info h1 {
+  font-size: 1.9em;
+  position: relative;
+  bottom: 12px;
+}
+.section-4 .latest-news-images .news-image .news-info #technology {
+  position: relative;
+  bottom: 33px;
+}
+.section-4 .latest-news-images .news-image .news-info #moving-text {
+  position: relative;
+  bottom: 50px;
+}
+.section-4 .latest-news-images .news-image .news-info #moving {
+  position: relative;
+  bottom: 39px;
+}
+.section-4 .latest-news-images .news-image .news-info .author-img {
+  border-top: grey 0.4px solid;
+  padding-top: 20px;
+  display: flex;
+  gap: 10px;
+  position: relative;
+  bottom: 30px;
+}
+.section-4 .latest-news-images .news-image .news-info .author-img img {
+  border-radius: 50%;
+  height: 70px;
+  width: 80px;
+}
+.section-4 .latest-news-images .news-image .news-info .author-img .description {
+  position: relative;
+  bottom: 4px;
+}
+.section-4 .latest-news-images .news-image .news-info .author-img .description h4 {
+  font-weight: 800;
+}
+.section-4 .latest-news-images .news-image .news-info .author-img .description #ceo {
+  position: relative;
+  bottom: 13px;
+  color: grey;
 }/*# sourceMappingURL=style.css.map */
