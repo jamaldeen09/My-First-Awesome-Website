@@ -259,7 +259,7 @@ ul a:hover {
   align-items: center;
   flex-direction: column;
   height: 900px;
-  background-color: rgb(244, 244, 244);
+  background-color: rgba(244, 242, 242, 0.793);
 }
 .section-4 h1 {
   font-size: 2em;
@@ -278,7 +278,7 @@ ul a:hover {
   height: 700px;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(234, 234, 234);
 }
 .section-4 .latest-news-images .news-image img {
   border-top-right-radius: 15px;
@@ -533,7 +533,7 @@ ul a:hover {
   display: flex;
   gap: 280px;
   padding-top: 60px;
-  height: 400px;
+  height: 450px;
 }
 .conclusion-section .opening-hours {
   position: relative;
