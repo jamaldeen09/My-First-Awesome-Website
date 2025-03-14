@@ -259,6 +259,7 @@ ul a:hover {
   align-items: center;
   flex-direction: column;
   height: 900px;
+  background-color: rgb(244, 244, 244);
 }
 .section-4 h1 {
   font-size: 2em;
@@ -269,6 +270,8 @@ ul a:hover {
   width: 1413px;
   display: flex;
   gap: 20px;
+  position: relative;
+  left: 40px;
 }
 .section-4 .latest-news-images .news-image {
   width: 438px;
@@ -337,7 +340,7 @@ ul a:hover {
   overflow: hidden;
   padding-top: 50px;
   justify-content: space-between;
-  background-color: rgb(247, 247, 247);
+  background-color: white;
 }
 .section-5 .appointment-img {
   overflow: hidden;
@@ -358,7 +361,7 @@ ul a:hover {
   width: 470px;
   padding-left: 10px;
   padding-right: 10px;
-  box-shadow: 0px 0px 10px black;
+  box-shadow: 0px 0px 8px black;
 }
 .section-5 .make-appointment h1 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
@@ -524,4 +527,119 @@ ul a:hover {
 .section-5 .make-appointment .additional-message .button .btn a {
   color: white;
   font-size: 1.2em;
+}
+
+.conclusion-section {
+  display: flex;
+  gap: 280px;
+  padding-top: 60px;
+  height: 400px;
+}
+.conclusion-section .opening-hours {
+  position: relative;
+  right: 200px;
+  bottom: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.conclusion-section .opening-hours h1 {
+  font-size: 2em;
+}
+.conclusion-section .opening-hours pre {
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 0.9em;
+  color: grey;
+}
+.conclusion-section .opening-hours .fa-brands.fa-square-facebook {
+  color: black;
+}
+.conclusion-section .opening-hours .fa-brands.fa-twitter {
+  color: black;
+}
+.conclusion-section .opening-hours .fa-brands.fa-instagram {
+  color: black;
+}
+.conclusion-section .contact-info {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-left: 40px;
+  position: relative;
+  left: 130px;
+}
+.conclusion-section .contact-info h1 {
+  font-size: 2em;
+  font-weight: bold;
+}
+.conclusion-section .contact-info h4 {
+  color: grey;
+}
+.conclusion-section .contact-info #custom {
+  position: relative;
+  bottom: 10px;
+}
+.conclusion-section .contact-info #other-custom {
+  position: relative;
+  bottom: 20px;
+}
+.conclusion-section .contact-info p {
+  position: relative;
+  bottom: 15px;
+}
+.conclusion-section .contact-info .fa-solid.fa-phone {
+  background-color: black;
+  color: white;
+  padding: 8px;
+  border-radius: 50%;
+}
+.conclusion-section .contact-info .fa-regular.fa-envelope {
+  background-color: black;
+  color: white;
+  padding: 8px;
+  border-radius: 50%;
+}
+.conclusion-section .real-news {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  padding-left: 30px;
+  position: relative;
+  right: 80px;
+}
+.conclusion-section .real-news h1 {
+  font-weight: 800;
+  font-size: 2em;
+}
+.conclusion-section .real-news .amazing {
+  border: 3px solid blue;
+}
+.conclusion-section .real-news .awesome {
+  display: flex;
+  gap: 20px;
+}
+.conclusion-section .real-news .awesome img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+.conclusion-section .real-news .awesome .wow {
+  position: relative;
+  bottom: 3px;
+}
+.conclusion-section .real-news .awesome .wow h4, .conclusion-section .real-news .awesome .wow h5 {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-weight: 800;
+}
+.conclusion-section .real-news .awesome .wow h5 {
+  position: relative;
+  bottom: 13px;
+  color: grey;
+}
+
+footer {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  border-top: grey 0.5px solid;
+  display: flex;
+  padding-left: 170px;
+}
+footer pre {
+  font-weight: 800;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 0.9em;
 }/*# sourceMappingURL=style.css.map */

@@ -125,3 +125,11 @@ urna mattis. Ut placerat, diam a tempus vehicula.
                         left:85px;
                     }
                 }
+
+                img{
+                    position:relative;
+                    left:85px;
+                    width:900px;
+                }
+
+                <img src="appointment-image.jpg" width="1000px" height="1000px">
