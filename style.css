@@ -642,4 +642,55 @@ footer pre {
   font-weight: 800;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 0.9em;
+}
+
+@media only screen and (max-width: 600px) {
+  .header-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .header-container p {
+    position: relative;
+    right: 120px;
+  }
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+    height: 440px;
+  }
+  ul {
+    flex-direction: column;
+    position: relative;
+    right: 116px;
+  }
+  .info {
+    flex-direction: column;
+  }
+  .section-2 {
+    background-image: url(about-bg.jpg);
+    background-position: center;
+  }
+  .section-2 .section-2-info {
+    position: relative;
+    right: 200px;
+    width: 500px;
+    padding: 0px;
+    margin: 0px;
+  }
+  .section-2 .section-2-info .inner-div {
+    position: relative;
+    right: 500px;
+  }
+  .section-2 .section-2-info .inner-div pre {
+    font-size: 1em;
+  }
+  .section-3 {
+    border: 5px solid yellow;
+    display: flex;
+    flex-direction: column;
+  }
+  .section-3 .inner-div {
+    border: 5px solid red;
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=style.css.map */
